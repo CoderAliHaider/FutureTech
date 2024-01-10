@@ -1,10 +1,6 @@
 import styled, { createGlobalStyle , css } from "styled-components";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// Define your SASS styles
-const sassStyles = css`
-  ${bgcolor}
-`;
 const GlobalStyles = createGlobalStyle`
   // your global styles
   body {
@@ -18,9 +14,6 @@ const GlobalStyles = createGlobalStyle`
   overflow: hidden;
   position: relative;
 }
-
-//SASS FOR SHOP PAGE
-${sassStyles}
 `;
 export const Header = styled.div`
   background-color: ${(props) =>

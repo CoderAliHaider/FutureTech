@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Image } from "react-bootstrap";
 import React from "react";
+import styles from "../../styles/styles.module.scss";
 const Shop = () => {
   return (
     <main>
@@ -10,7 +11,7 @@ const Shop = () => {
       <div className="crads_container">
         <div className="card">
           <Image src="/images/doc_duck.jpg" alt="pic" />
-          <h1>Doctor Duck</h1>
+          <h1 style={{ color: styles.primaryColor }}>Doctor Duck</h1>
           <p>
             Doctor Duck is a brilliant quackademic, leads a feathered team in
             pioneering research at Pondington University. With a beak for

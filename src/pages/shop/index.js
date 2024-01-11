@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Image } from "react-bootstrap";
 import React from "react";
-// import "../../styles/globalStyles.scss";
 const Shop = () => {
   return (
     <main>

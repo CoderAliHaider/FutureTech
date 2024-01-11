@@ -5,7 +5,6 @@ import ThemeProvider from "../components/ThemeContext";
 import "../styles/global.css";
 import GlobalStyles from "../styles/globalStyles"
 import MyApp from "./index";
-// import "../styles/globalStyles.scss";
 const App = ({ Component, pageProps}) => {
   const router = useRouter();
   const isSplash = router.pathname === "/";
